@@ -2,7 +2,9 @@
 
 At [Kredi](https://www.kredi.mx), We are focused on critical financial processes. That is why we want our development team to focus on quality code and best practices.
 
-This is a small technical assessment for our open position as Sr. Frontend Sofware Developer. We encourage you to follow the rules described above:
+This is a small technical assessment for our open position as Sr. Frontend Sofware Developer. We encourage you to follow the rules and recomendations described above:
+
+Rules:
 
 - Be honest, do not copy code from Stack overflow, We all know programmers do that, but this time we want to evaluate your thinking process.
 - Do not mention the company name in your repository.
@@ -12,6 +14,12 @@ This is a small technical assessment for our open position as Sr. Frontend Sofwa
 - Deploy your code to Heroku or Firebase, it takes no longer than 20 minutes!
 - if you have any questions, do not hesitate to reach us, this is so important!
 - Happy coding! :)
+
+Recomendations:
+
+- Use functional components.
+- Use Redux + middlewares like Thunk or Sagas.
+- Use Formik + Yup or equivalents.
 
 ## Part I
 
@@ -97,5 +105,5 @@ Write an app with React JS that follow the user stories above:
     This is an example of how the app might look like, however, you can design it.
     ![Example](pomodoro-wireframe.svg)
 - As an active user I want to be able to write what task am I working on.
-- As an active user, If I want to close the window or tab, I want to see an alert preventing.
+- As an active user, If I want to close the window or tab, I want to see an alert preventing me, only if there is an active pomodoro.
 - As an active user I want to see all my completed pomodoros in a list.
