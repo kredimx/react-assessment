@@ -27,21 +27,17 @@ Recomendations:
 
 Please add a file called `excercises.md` to your repo with your answers:
 
-#### CSS
-
-1. How do we make a rounded corner by using CSS?
-
-2. What is a CSS pseudo-class?
-
-3. Differences between the ID and class.
-
 #### JS (ES6)
 
-1. What is ES or ECMAScript or ES6?
+1. What is an arrow function? What are all its uses? How it differs from a normal function?
 
-2. What is an arrow function? What are all its uses? How it differs from a normal function?
+2. What is an generator function?
 
-3. What is a generator function?
+3. What is hoisting in JS?
+
+4. What is callback hell?
+
+5. What is event loop
 
 #### ReactJS
 
@@ -56,7 +52,6 @@ Please add a file called `excercises.md` to your repo with your answers:
 ### CHALLENGE
 
 Your mission is to make a small Pomodoro time tracking app.
-
 
 > (if you do not know about the Pomodoro technique, please refer to [this link](https://francescocirillo.com/pages/pomodoro-technique))
 
