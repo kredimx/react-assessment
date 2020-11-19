@@ -9,7 +9,7 @@ Rules:
 - Be honest, do not copy code from Stack overflow, We all know programmers do that, but this time we want to evaluate your thinking process.
 - Do not mention the company name in your repository.
 - Apply best practices, var names, indentation, readability, SOLID, DRY, Design patterns, etc.
-- Test your code.
+- Test your code, We strongly recommend Jest.
 - Publish your code on Github || Gitlab, be careful about how you write your commit messages.
 - Deploy your code to Heroku or Firebase, it takes no longer than 20 minutes!
 - if you have any questions, do not hesitate to reach us, this is so important!
@@ -37,7 +37,9 @@ Please add a file called `excercises.md` to your repo with your answers:
 
 4. What is callback hell?
 
-5. What is event loop
+5. What is event loop.
+
+
 
 #### ReactJS
 
@@ -79,7 +81,7 @@ The core process of the Pomodoro Technique consists of 6 steps:
 
 ```
 
-Write an app with React JS that follow the user stories above:
+Write an app with React with TypeScript that follow the user stories above:
 
 - As a visitor, I want to create an account for the Pomodoro app, so that I become an active user.
     Acceptance Criteria:
@@ -90,9 +92,11 @@ Write an app with React JS that follow the user stories above:
     Acceptance Criteria:
       - My timer should have a large format (easy to see).
 
-      - I will be able to start a Pomodoro timer.
+      - I should be able to start a Pomodoro timer.
 
-      - I will be able to pause a Pomodoro.
+      - I should be able to pause a Pomodoro.
+
+      - I should be able to cancel a Pomodoro.
 
       - After my Pomodoro ends, a 5 minutes timer starts, indicating it is a short break.
 
@@ -102,3 +106,7 @@ Write an app with React JS that follow the user stories above:
 - As an active user I want to be able to write what task am I working on.
 - As an active user, If I want to close the window or tab, I want to see an alert preventing me, only if there is an active pomodoro.
 - As an active user I want to see all my completed pomodoros in a list.
+- As an active user I want to see statistics of my pomodoros.
+    - I want to see my completed pomodoros counter.
+    - I want to see total hours calculations, How many hours I've worked, how many hours I've rested.
+    - As an active user I want to download my tasks report.
