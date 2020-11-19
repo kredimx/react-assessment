@@ -35,10 +35,9 @@ Please add a file called `excercises.md` to your repo with your answers:
 
 3. What is hoisting in JS?
 
-4. What is callback hell?
+4. What is a callback hell?
 
-5. What is event loop.
-
+5. What is an event loop?
 
 
 #### ReactJS
